@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #fff9b3;
+	background-color: #a3b18a;
 	font-family: Montserrat, sans-serif;
 	display: flex;
 	align-items: center;
@@ -34,10 +34,10 @@ p {
 }
 
 .card-container {
-	background-color: #ffff98;
+	background-color: #344e41;
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
-	color: #202020;
+	color: #a3b18a;
 	padding-top: 30px;
 	position: relative;
 	width: 350px;
@@ -46,16 +46,16 @@ p {
 }
 
 .card-container .round {
-	border: 1px solid #303030;
+	border: 1px solid #dad7cd;
 	border-radius: 50%;
 	padding: 7px;
 }
 
 button.primary {
-	background-color: #303030;
-	border: 1px solid #303030;
+	background-color: #dad7cd;
+	border: 1px solid #dad7cd;
 	border-radius: 3px;
-	color: #ffff98;
+	color: #344e41;
 	font-family: Montserrat, sans-serif;
 	font-weight: 600;
     margin-top: 3px;
@@ -64,17 +64,18 @@ button.primary {
 
 button.primary.ghost {
 	background-color: transparent;
-	color: #303030;
+	color: #dad7cd;
     margin-top: 3px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .skills {
-	background-color: #fff9b3;
+	background-color: #dad7cd;
 	text-align: left;
 	padding: 15px;
 	margin-top: 30px;
+	color: #344e41;
 }
 
 .skills ul {
@@ -84,7 +85,7 @@ button.primary.ghost {
 }
 
 .skills ul li {
-	border: 2px solid #ffff98;
+	/* border: 2px solid #ffff98; */
 	border-radius: 2px;
 	display: inline-block;
 	font-size: 12px;
@@ -113,19 +114,23 @@ footer {
     border: none;
 }
 
-#grey{
-    background-color: grey;
+#green{
+    background-color: #344e41;
+	border: 2px solid #a3b18a;
 }
 
-#white{
-    background-color: white;
+#violet{
+    background-color: #A7727D;
+	border: 2px solid #F8EAD8;
 }
 
 #blue{
-    background-color: #2c2549;
+    background-color: #022b3a;
+	border: 2px solid #e1e5f2;
 }
 
 #yellow{
-    background-color: yellow;
+    background-color: #303030;
+	border: 2px solid #fff9b3;
 }
 
